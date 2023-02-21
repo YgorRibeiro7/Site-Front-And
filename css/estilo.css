@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+header{
+background-color:rgb(12, 11, 11);
+color: #fff;
+padding: 10px;
+font-family: arial;
+width: 100%;
+position: fixed;
+
+}
+ @media(min-width:320px) and (max-width:450px) {
+     
+     header{
+      text-align: center;
+        
+        }
+ }
+h3{
+cursor: default;
+
+font-size: 1.9rem;
+font-family: arial;
+
+}
+h4{
+cursor: default;
+
+font-size: 1rem;
+font-family: arial;
+margin: 0;
+padding-bottom: 5px
+
+}
+body{
+background-color: #F5F5F5;
+}
+.container{
+display: block;
+background-color: #fff;
+justify-content: center ;
+box-shadow: 2px 2px 15px 3px #000;
+
+text-indent: 2%;
+text-align: center;
+
+}
+body{
+    background-color: rgba(245,245,245);
+}
+footer{
+font-family: arial;
+background-color: black;
+/*
+width: 100%;
+height: 200px;*/
+
+color: #fff;
+ text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+
+/*display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+
+
+}
+p{
+font-family: arial;
+text-align: justify;
+padding: 10 px;
+font-size: 1.6rem;
+}
+h1{
+
+font-family: arial;
+text-align: center;
+padding-top: 5px;
+font-size: 2.5rem;
+margin-bottom: 20px;
+}
+h2{
+font-family: arial;
+text-align: center;
+padding-top: 5px;
+font-size: 1.8rem;
+}
+.texto-footer{
+text-align: center;
+font-family: arial;
+padding-top: 10px;
+margin-left: 10px;
+margin: 5px;
+}
+.compre{
+background-color: aquamarine;
+width: 120px;
+height: 100px;
+position: fixed;
+right: 0;
+text-align: center;
+margin-top: 13%;
+z-index: 3;
+
+}
+h5{
+font-family: arial;
+text-align: center;
+padding-top: 2px;
+font-size: 1.8rem;
+}
+button{
+font-family: arial;
+text-align: center;
+padding-top: 5px;
+font-size: 1.8rem;
+background-color: rgba(50,205 ,50,1.0);
+color: #fff;
+border: solid;
+}
+#grid-container {
+margin-top: 5px;
+background-color: rgb(228, 208, 208);
+
+}
+.grid{
+display: grid;
+grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+grid-gap: 1px;
+max-width: 1200px;
+margin: 0 auto;
+grid-gap:10px;
+}
+.grid div{
+background-color: #fff;
+font-family: arial;
+text-align: center;
+font-size: 1.6rem;
+padding: 4px;
+padding-bottom: 10px;
+box-shadow: 2px 2px #000 ;
+}
+#formulario{
+background-color: rgb(41, 41, 51);
+color: rgb(230, 214, 214);
+text-shadow: 2px 2px #000;
+
+}
+.formulario-contato{
+font-family: arial;
+font: 1.8;
+padding: 10px;
+text-align: left;
+margin-left: 5%;
+font-weight: bold;
+color: #F5F5F5;
+text-shadow: 2px 2px 2px  #000;
+}
+input{
+font-family: sans-serif;
+font-size: 1.7rem;
+padding: 5px; 
+color: rgb(19, 16, 16);
+}
+.dados-formulario{
+width: 39%;
+}
+nav{
+cursor: default;
+text-align: right;
+margin-top: 10px;
+font-weight: bold;
+font-family: arial;
+font-size: 1.6rem;
+margin-right: 7%;
+word-spacing: 40px;
+}
+ @media( min-whidth: 320px) and (max-whidth:450px){
+     
+     nav{
+        cursor: default;
+        text-align:center;
+        font-weight: bold;
+        font-family: arial;
+        font-size: 1.5rem;
+        word-spacing: 20px;
+        margin-left: 300px;
+     }  
+}
+
+a{
+text-decoration: none;
+color: #fff;
+transition: all 600ms ease-in-out;
+}
+a:hover{
+color:rgb(31, 31, 17);
+}
+#enviar{
+background-color:rgba(60,179,113);
+border-radius: 50%;
+width: 90px;
+box-shadow: 1px 2px 3px 4px #000;
+}
+#limpar {
+background-color: rgba(178,34,34);
+border-radius: 50%;
+width: 90px;
+box-shadow: 1px 2px 3px 4px #000;
+}
+.imagem-grid{
+width: 55%;
+height: 44%;
+border-radius: 30px;
+}
+.texto-grid{
+font-family: arial;
+font-size: 1.8rem;
+text-align: center;
+font-weight: bold;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.link-grid{
+font-weight: bold;
+font-size: 1.8rem;
+background-color: #000;
+border-radius: 25px;
+padding: 5px;
+
+}
+#professor{
+width: 200px;
+height: 200px;
+border-radius: 300%;
+padding: 20px;
+transition: 600ms ease-in-out;
+}
+ul, li{
+font-size: 1.6rem;
+font-family: arial;
+text-align: left;
+margin-left: 30px;
+margin-bottom: 10px;
+}
+.imagem-grid{
+    transition: 600ms ease-in-out;
+ 
+}
+img:hover{
+    transform: translate(10%,10%) scale(1.3);
+  border: solid rgb(101, 101, 134);
+  box-shadow: 2px 2px 2px  #000;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
